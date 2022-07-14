@@ -1,0 +1,5 @@
+@import '~bootstrap/dist/css/bootstrap';
+/* Import Fontawesome CSS */
+@import '~@fortawesome/fontawesome-free/css/all';
+
+@import './style.css';
