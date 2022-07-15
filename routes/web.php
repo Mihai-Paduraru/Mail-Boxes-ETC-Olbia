@@ -17,5 +17,8 @@ use App\Http\Controllers\ContactUsFormController;
 
 Route::get('/', [PublicController::class, 'homepage'])->name('homepage');
 
+Route::get('/info', [PublicController::class, 'info'])->name('info');
+
+
 Route::get('/contact', [ContactUsFormController::class, 'createForm']);
 Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');

@@ -22,6 +22,18 @@
   background-position: right;
   background-size: cover;
 }
+
+.header-contact{
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/media/contact.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.header-info{
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/media/info.png);
+  background-position: right;
+  background-size: cover;
+}
 /* fine heder */
 
 /* card */

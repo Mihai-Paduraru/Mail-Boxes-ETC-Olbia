@@ -1,6 +1,6 @@
 <x-layout>
 
-    <div class="container-fluid vh-100 m-0 header d-flex flex-column justify-content-center p-3">
+    <div class="container-fluid vh-100 m-0 header-contact d-flex flex-column justify-content-center p-3">
     </div>
 
 
