@@ -4,15 +4,33 @@
 }
 
 
+.header-alert{
+  animation: fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  max-width: 200px;
+}
+
+@keyframes fade {
+  0% {
+      transform: translateY(100px);
+      opacity: 1;
+  }
+  50%{
+      transform: translateY(0px);
+      opacity: 0.5;
+  }
+  100%{
+      transform: translateY(-100px);
+      opacity: 0;
+      display: none;
+  }
+}
+
 /* navbar */
 
-.color-castom-navbar{
-    background-color: var(--principal);
-}
 
-.colore-scr-nav{
-    color: var(--secondari);
-}
 
 /* fine navbar */
 
@@ -36,18 +54,53 @@
 }
 /* fine heder */
 
-/* card */
-.card {
-  width: 20vw;
-  height: 40vh;
-  background: rgb(46, 44, 44);
-  transition: all 300ms;
+/* infografica */
+.info-contact{
+  background-color: rgba(63, 63, 63, 0.1);
+  top: +25vh;
 }
- 
-.card:hover {
 
-  transform: scale(1.10);
-}
+
+/* booton */
+
+button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ button:hover {
+  color: #e8e8e8;
+ }
+ 
+ button:hover::before {
+  width: 100%;
+ }
 
 /* footer */
 .site-footer{

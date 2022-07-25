@@ -5,14 +5,16 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+      <ul class="navbar-nav me-auto p-3 mb-2 mb-lg-0">
+        <li class="nav-item px-3">
           <a class="navbar-brand" href="{{route('contact.store')}}">Contataci</a>
         </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="{{route('info')}}">info</a>
+        <li class="nav-item px-3">
+          <a class="navbar-brand" href="{{route('info')}}">Chi siamo</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+
