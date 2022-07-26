@@ -1,6 +1,7 @@
 <x-layout>
 
-    <div class="container-fluid vh-100 m-0 header-contact d-flex flex-column justify-content-center p-3">
+    <div class="container-fluid m-0 d-flex flex-column justify-content-center p-3">
+        <img src="/media/contact.jpg" class="img-fluid" alt="img contact">
     </div>
 
     <div class="container-fluid p-5 ">

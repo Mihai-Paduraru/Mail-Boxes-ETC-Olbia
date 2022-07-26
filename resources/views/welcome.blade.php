@@ -1,6 +1,7 @@
 <x-layout>
 
-    <header class="container-fluid vh-100 m-0 header d-flex flex-column justify-content-center p-3">
+    <header class="container-fluid  m-0  d-flex flex-column justify-content-center">
+        <img src="/media/header.png" class="img-fluid" alt="img header">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-12">
                 

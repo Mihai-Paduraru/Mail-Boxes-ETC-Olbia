@@ -19047,6 +19047,7 @@ readers do not read off random characters that represent icons */
 }
 
 
+
 .header-alert{
   -webkit-animation: fade;
           animation: fade;
@@ -19097,25 +19098,6 @@ readers do not read off random characters that represent icons */
 
 /* fine navbar */
 
-/* heder */
-.header{
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/media/header.png);
-  background-position: right;
-  background-size: cover;
-}
-
-.header-contact{
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/media/contact.jpg);
-  background-position: right;
-  background-size: cover;
-}
-
-.header-info{
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/media/info.png);
-  background-position: right;
-  background-size: cover;
-}
-/* fine heder */
 
 /* infografica */
 .info-contact{
