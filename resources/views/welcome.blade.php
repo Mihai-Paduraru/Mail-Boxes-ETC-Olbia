@@ -1,7 +1,7 @@
 <x-layout>
 
     <header class="container-fluid  m-0  d-flex flex-column justify-content-center">
-        <img src="/media/header.png" class="img-fluid" alt="img header">
+        <img src="/media/header.jpg" class="img-fluid" alt="img header">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-12">
                 
@@ -32,7 +32,7 @@
     </div>
     
     <div data-aos="fade-up" class="container p-3 d-flex justify-content-center">
-        <button><a href="{{route('contact.store')}}">contataci per una spedizione</a></button>
+        <button><a href="{{route('contact.store')}}">Contattaci per una spedizione</a></button>
     </div>
     
     <div class="container-fluid p-5">
@@ -46,7 +46,7 @@
           </div>
           <div data-aos="fade-up" class="col-12 col-md-4 info-contact">
             <img src="/media/info/contact.png" class="img-fluid" alt="infografica contato">
-            <h2>Contataci</h2>
+            <h2>Contattaci</h2>
             <p>contataci cosi possiamo metterci in contatto con lei ed organizzare la sua spedizione in modo facile e sicuro</p>
           </div>
           <div data-aos="fade-up" class="col-12 col-md-4 info-contact">
