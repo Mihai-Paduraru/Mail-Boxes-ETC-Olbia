@@ -3,7 +3,18 @@
     --secondari: white,
 }
 
+/* icona */
 
+.logo-bianco{
+  height: 4vh;
+}
+
+
+.ul-coustume{
+  display: flex;
+  justify-content: center !important;
+  text-align: center;
+}
 
 .header-alert{
   animation: fade;
