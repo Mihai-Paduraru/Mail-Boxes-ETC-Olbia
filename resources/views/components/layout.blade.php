@@ -24,6 +24,7 @@
         AOS.init();
       </script>
     
+    <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/fdbf7949f239656c05538bff/script.js"></script> <!-- End cookieyes banner -->
     <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
