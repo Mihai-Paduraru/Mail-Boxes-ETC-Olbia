@@ -1,14 +1,16 @@
 <x-layout>
 
-    <div class="container-fluid m-0 d-flex flex-column justify-content-center p-3">
+    <header class="container-fluid m-0 d-flex flex-column justify-content-center p-3">
+        <h1>Contattaci</h1>
         <img src="/media/contact.jpg" class="img-fluid" alt="img contact">
-    </div>
+    </header>
+    <title>contattaci</title>
 
     <div class="container-fluid p-5 ">
         <div class="row">
           <div data-aos="fade-up" class="col-12 info-contact">
-            <p class="text-center fs-2 fw-bold">Noi sappiamo come</p>
-            <p class="text-center fs-3">Mail Boxes Etc. offre semplicemente le migliori soluzioni per spedizioni ed imballaggio. Decenni di esperienza, professionalità e competenza consentono di imballare e gestire praticamente qualsiasi trasporto di merce in Italia e all’estero con i migliori corrieri sul territorio.</p>                
+            <h2 class="text-center fs-2 fw-bold">Noi sappiamo come</h2>
+            <h3 class="text-center fs-3">Mail Boxes Etc. offre semplicemente le migliori soluzioni per spedizioni ed imballaggio. Decenni di esperienza, professionalità e competenza consentono di imballare e gestire praticamente qualsiasi trasporto di merce in Italia e all’estero con i migliori corrieri sul territorio.</h3>                
           </div>
         </div> 
     </div>
